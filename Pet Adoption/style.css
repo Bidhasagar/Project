@@ -1,0 +1,37 @@
+h2{
+    color: rgb(230, 77, 30);
+}
+span{
+    color: rgb(204, 132, 22);
+}
+#pets{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.card{
+    height: 400px;
+    width: 350px;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+#dog{
+ height: 200px;
+ width: 350px;
+ border-radius: 6%;
+
+}
+#cat{
+    height: 200px;
+ width: 350px;
+ border-radius: 6%;
+}
+@media(max-width:375px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
